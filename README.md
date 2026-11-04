@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Matheus Rodrigues Teixeira: Machine Learning Engineer, Software Engineer, Quantum Computing Researcher. Banner with a ray-traced black hole." width="100%"/>
+  <img src="assets/header.svg" alt="Matheus Rodrigues Teixeira: Machine Learning Engineer, Software Engineer, Quantum Computing Researcher. Animated banner with a black hole and orbiting planets." width="100%"/>
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@
   <img src="assets/terminal.svg" alt="Terminal: whoami prints Matheus Rodrigues Teixeira, machine learning engineer, software engineer, quantum computing researcher. Status: Ph.D. in Electrical Engineering at FEI on quantum error correction, enrolled with classes from February 2027; MBA in Data Science, AI and Analytics at USP/Esalq in progress; M.Sc. in Electrical Engineering (AI) and B.Sc. in Computer Science at FEI. Shipped: isaac3d.com, amadeosheets.com, Allwinner, Brectus, quantum ML for healthcare. Languages: Portuguese (native), English (C2, EF SET 92/100)." width="100%"/>
 </p>
 
-I build reproducible machine learning pipelines and tested, production-quality software. My research is in quantum machine learning and quantum error correction; my engineering work spans Python, TypeScript, React and Rust compiled to WebAssembly. The physics on this page is computed, not drawn: the banner is a ray-traced Schwarzschild black hole, and the double pendulum is integrated with RK4.
+I build reproducible machine learning pipelines and tested, production-quality software. My research is in quantum machine learning and quantum error correction; my engineering work spans Python, TypeScript, React and Rust compiled to WebAssembly. The physics on this page is computed, not drawn: the double pendulum, for example, is integrated with RK4.
 
 <p align="center">
   <img src="assets/worldline.svg" alt="Worldline, a spacetime diagram of my path: web developer and IT support at Orion Benefícios from 2016 to 2023; B.Sc. in Computer Science at FEI 2019 to 2023; M.Sc. in Electrical Engineering (AI) at FEI 2024 to 2026; MBA at USP/Esalq from August 2026; BRACIS 2026 paper in October 2026; Ph.D. classes begin February 2027; planned sandwich year at ETH Zurich from September 2028; planned thesis defence in February 2030." width="100%"/>
@@ -181,11 +181,3 @@ flowchart LR
 <p align="center">
   <img src="assets/footer.svg" alt="" width="100%"/>
 </p>
-
-<details>
-<summary><sub>How the banner was made</sub></summary>
-<br/>
-
-Each pixel of the banner is a light ray traced backwards from the camera through Schwarzschild spacetime (units G = c = M = 1). Rays follow the null-geodesic equation in Cartesian form, <code>x″ = −(3/2) h² x / r⁵</code>, where <code>h = |x × v|</code> is conserved, integrated with RK4. A ray stops when it crosses the horizon, escapes to the sky, or has crossed the accretion disc three times. The disc runs from the innermost stable circular orbit (r = 6M) to r = 34M and has a Novikov–Thorne-like flux profile. Its colour comes from the blackbody temperature shifted by <code>g = 1 / (uᵗ (1 − Ω L_z))</code>, and its brightness from <code>g³</code> beaming. The animation has 72 frames: each radial band of the disc turns a whole number of times per loop, so the motion loops seamlessly.
-
-</details>
