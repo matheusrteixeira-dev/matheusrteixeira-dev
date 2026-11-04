@@ -15,7 +15,7 @@
 I work on machine learning and software. My research is in quantum machine learning and quantum error correction, and most of my code is in Python, TypeScript, React and Rust.
 
 <p align="center">
-  <img src="assets/worldline.svg" alt="Worldline, a spacetime diagram of my path: web developer and IT support at Orion Benefícios from 2016 to 2023; B.Sc. in Computer Science at FEI 2019 to 2023; M.Sc. in Electrical Engineering (AI) at FEI 2024 to 2026; MBA at USP/Esalq from August 2026; BRACIS 2026 paper in October 2026; Ph.D. classes begin February 2027; planned sandwich year at ETH Zurich from September 2028; planned thesis defence in February 2030." width="100%"/>
+  <a href="https://www.linkedin.com/in/matheusrteixeira/"><img src="assets/worldline.svg" alt="Worldline, a spacetime diagram of my path: web developer and IT support at Orion Benefícios from 2016 to 2023; B.Sc. in Computer Science at FEI 2019 to 2023; M.Sc. in Electrical Engineering (AI) at FEI 2024 to 2026; MBA at USP/Esalq from August 2026; BRACIS 2026 paper in October 2026; Ph.D. classes begin February 2027; planned sandwich year at ETH Zurich from September 2028; planned thesis defence in February 2030." width="100%"/></a>
 </p>
 
 ## Featured software
@@ -81,7 +81,7 @@ flowchart LR
 ### Publication
 
 <p align="center">
-  <img src="assets/publication.svg" alt="Publication: Systematic Review of Quantum Machine Learning for Healthcare. Matheus Teixeira, Reinaldo A. C. Bianchi. 36th Brazilian Conference on Intelligent Systems (BRACIS 2026), Cuiabá, Brazil, October 2026." width="100%"/>
+  <a href="assets/bracis-2026-certificate.pdf"><img src="assets/publication.svg" alt="Publication: Systematic Review of Quantum Machine Learning for Healthcare. Matheus Teixeira, Reinaldo A. C. Bianchi. 36th Brazilian Conference on Intelligent Systems (BRACIS 2026), Cuiabá, Brazil, October 2026." width="100%"/></a>
 </p>
 
 ## Skills
@@ -179,8 +179,15 @@ flowchart LR
   <a href="https://github.com/matheusrteixeira-dev/Computer-Science-FEI"><img src="assets/btn-cs.svg" alt="Computer Science coursework repository" width="49%"/></a>
 </p>
 
+## Research interests
+
 <p align="center">
-  <img src="assets/interests.svg" alt="Research interests orbiting quantum error correction: machine learning decoders, quantum machine learning, healthcare AI, computer vision and reproducible research." width="100%"/>
+  <a href="https://en.wikipedia.org/wiki/Quantum_error_correction"><img src="assets/int-qec.svg" alt="Quantum Error Correction" height="44"/></a>
+  <a href="https://scholar.google.com/scholar?q=machine+learning+decoders+quantum+error+correction"><img src="assets/int-decoders.svg" alt="Machine Learning Decoders" height="44"/></a>
+  <a href="https://github.com/matheusrteixeira-dev/Quantum-Machine-Learning-Applications-in-Healthcare"><img src="assets/int-qml.svg" alt="Quantum Machine Learning" height="44"/></a>
+  <a href="https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare"><img src="assets/int-health.svg" alt="Healthcare AI" height="44"/></a>
+  <a href="https://en.wikipedia.org/wiki/Computer_vision"><img src="assets/int-vision.svg" alt="Computer Vision" height="44"/></a>
+  <a href="https://en.wikipedia.org/wiki/Reproducibility"><img src="assets/int-repro.svg" alt="Reproducible Research" height="44"/></a>
 </p>
 
 <p align="center">

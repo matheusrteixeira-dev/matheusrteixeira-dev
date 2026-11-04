@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="44" viewBox="0 0 280 44" role="img" aria-labelledby="t d">
+  <title id="t">Quantum Error Correction</title>
+  <desc id="d">Quantum Error Correction</desc>
+  <style>
+    .tw { animation: tw 4s ease-in-out infinite; } .tw1 { animation-delay: 1.3s; } .tw2 { animation-delay: 2.6s; }
+    @keyframes tw { 0%,100% { opacity: .2; } 50% { opacity: .95; } }
+    .ping { transform-box: fill-box; transform-origin: center; animation: ping 3s ease-out infinite; } @keyframes ping { from { transform: scale(1); opacity: .8; } 60%,100% { transform: scale(2.6); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .ln, .note, .row { opacity: 1 !important; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05060f"/><stop offset="1" stop-color="#0d1230"/></linearGradient>
+    <linearGradient id="hudG" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22e6ff"/><stop offset="1" stop-color="#ff4fd8"/></linearGradient>
+    <clipPath id="frame"><rect width="280" height="44" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="280" height="44" fill="url(#bg)"/>
+    <circle cx="40.8" cy="20.0" r="0.7" fill="#dfe8ff" opacity="0.67"/><circle cx="121.4" cy="35.2" r="1.4" fill="#dfe8ff" opacity="0.32"/><circle cx="73.8" cy="29.0" r="0.7" fill="#dfe8ff" opacity="0.45"/><circle cx="215.0" cy="9.0" r="0.7" fill="#dfe8ff" opacity="0.33"/><circle cx="103.6" cy="18.0" r="0.7" fill="#dfe8ff" opacity="0.49"/><circle cx="77.2" cy="34.9" r="1.1" fill="#dfe8ff" opacity="0.35"/>
+    <circle cx="24" cy="22" r="5" fill="#ffd79a"/><circle cx="24" cy="22" r="5" fill="none" stroke="#ffd79a" class="ping" style="animation-delay:0.0s"/><text x="40" y="27" font-family="'SFMono-Regular', Consolas, 'DejaVu Sans Mono', 'Liberation Mono', Menlo, monospace" font-size="15" fill="#ffd79a">Quantum Error Correction</text>
+    <rect x=".5" y=".5" width="279" height="43" rx="22" fill="none" stroke="#ffd79a" stroke-opacity=".45"/>
+  </g>
+</svg>

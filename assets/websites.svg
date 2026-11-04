@@ -4,9 +4,8 @@
   <style>
     .tw { animation: tw 4s ease-in-out infinite; } .tw1 { animation-delay: 1.3s; } .tw2 { animation-delay: 2.6s; }
     @keyframes tw { 0%,100% { opacity: .2; } 50% { opacity: .95; } }
-    .sh { animation: sh 1.8s ease-in-out infinite alternate; } @keyframes sh { from { fill-opacity: .12; } to { fill-opacity: .4; } }
-.g { animation: g 6s cubic-bezier(.2,.8,.2,1) infinite; } @keyframes g { 0% { stroke-dasharray: 0 400; } 40%,90% { stroke-dasharray: var(--d) 400; } 100% { stroke-dasharray: var(--d) 400; } }
-.ck { stroke-dasharray: 90; animation: ck 6s ease-out infinite; } @keyframes ck { 0%,30% { stroke-dashoffset: 90; } 50%,100% { stroke-dashoffset: 0; } }
+    .g { animation: g 2s cubic-bezier(.2,.8,.2,1) both; } @keyframes g { from { stroke-dasharray: 0 400; } }
+.ck { stroke-dasharray: 90; animation: ck .8s 1.2s ease-out both; } @keyframes ck { from { stroke-dashoffset: 90; } to { stroke-dashoffset: 0; } }
 @media (prefers-reduced-motion: reduce) { .ck { stroke-dashoffset: 0 !important; } }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .ln, .note, .row { opacity: 1 !important; } }
   </style>

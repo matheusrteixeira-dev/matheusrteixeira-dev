@@ -6,8 +6,7 @@
     @keyframes tw { 0%,100% { opacity: .2; } 50% { opacity: .95; } }
     .nd { animation: nd 1.6s ease-in-out infinite; } @keyframes nd { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
 .caret { animation: blink 1s steps(1) infinite; } @keyframes blink { 50% { opacity: 0; } }
-.nudge { animation: nudge 1.6s ease-in-out infinite; } @keyframes nudge { 50% { transform: translateX(5px); } }
-.bar { animation: bar 4s ease-in-out infinite alternate; } @keyframes bar { to { transform: translateX(480px); } }
+
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .ln, .note, .row { opacity: 1 !important; } }
   </style>
   <defs>
@@ -21,8 +20,7 @@
     <line x1="30" y1="30" x2="58" y2="24" stroke="#22e6ff" stroke-opacity=".3"/><line x1="30" y1="30" x2="58" y2="40" stroke="#22e6ff" stroke-opacity=".3"/><line x1="30" y1="30" x2="58" y2="56" stroke="#22e6ff" stroke-opacity=".3"/><line x1="30" y1="30" x2="58" y2="72" stroke="#22e6ff" stroke-opacity=".3"/><line x1="30" y1="48" x2="58" y2="24" stroke="#22e6ff" stroke-opacity=".3"/><line x1="30" y1="48" x2="58" y2="40" stroke="#22e6ff" stroke-opacity=".3"/><line x1="30" y1="48" x2="58" y2="56" stroke="#22e6ff" stroke-opacity=".3"/><line x1="30" y1="48" x2="58" y2="72" stroke="#22e6ff" stroke-opacity=".3"/><line x1="30" y1="66" x2="58" y2="24" stroke="#22e6ff" stroke-opacity=".3"/><line x1="30" y1="66" x2="58" y2="40" stroke="#22e6ff" stroke-opacity=".3"/><line x1="30" y1="66" x2="58" y2="56" stroke="#22e6ff" stroke-opacity=".3"/><line x1="30" y1="66" x2="58" y2="72" stroke="#22e6ff" stroke-opacity=".3"/><line x1="58" y1="24" x2="86" y2="48" stroke="#22e6ff" stroke-opacity=".3"/><line x1="58" y1="40" x2="86" y2="48" stroke="#22e6ff" stroke-opacity=".3"/><line x1="58" y1="56" x2="86" y2="48" stroke="#22e6ff" stroke-opacity=".3"/><line x1="58" y1="72" x2="86" y2="48" stroke="#22e6ff" stroke-opacity=".3"/><circle cx="30" cy="30" r="5" fill="#22e6ff" class="nd" style="animation-delay:0.00s"/><circle cx="30" cy="48" r="5" fill="#22e6ff" class="nd" style="animation-delay:0.10s"/><circle cx="30" cy="66" r="5" fill="#22e6ff" class="nd" style="animation-delay:0.20s"/><circle cx="58" cy="24" r="5" fill="#22e6ff" class="nd" style="animation-delay:0.40s"/><circle cx="58" cy="40" r="5" fill="#22e6ff" class="nd" style="animation-delay:0.50s"/><circle cx="58" cy="56" r="5" fill="#22e6ff" class="nd" style="animation-delay:0.60s"/><circle cx="58" cy="72" r="5" fill="#22e6ff" class="nd" style="animation-delay:0.70s"/><circle cx="86" cy="48" r="5" fill="#22e6ff" class="nd" style="animation-delay:0.80s"/>
     <text x="130" y="44" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#f2f5ff">M.Sc. Artificial Intelligence</text>
     <text x="130" y="70" font-family="'SFMono-Regular', Consolas, 'DejaVu Sans Mono', 'Liberation Mono', Menlo, monospace" font-size="14" fill="#c9d3f2">coursework repository · FEI</text>
-    <path d="M580,40.0 l9,8 -9,8" fill="none" stroke="#22e6ff" stroke-width="2.5" class="nudge"/>
-    <rect x="0" y="93" width="140" height="3" fill="#22e6ff" class="bar"/>
+    <path d="M580,40.0 l9,8 -9,8" fill="none" stroke="#22e6ff" stroke-width="2.5"/>
     <rect x=".5" y=".5" width="619" height="95" rx="16" fill="none" stroke="#22e6ff" stroke-opacity=".45"/>
   </g>
 </svg>

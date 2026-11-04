@@ -4,10 +4,8 @@
   <style>
     .tw { animation: tw 4s ease-in-out infinite; } .tw1 { animation-delay: 1.3s; } .tw2 { animation-delay: 2.6s; }
     @keyframes tw { 0%,100% { opacity: .2; } 50% { opacity: .95; } }
-    .wr { stroke-dashoffset: 92; animation: wr 6s ease-out infinite; } @keyframes wr { 0% { stroke-dashoffset: 92; } 20%,85% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 0; opacity: 0; } }
-.tick { stroke-dasharray: 20; animation: tk 6s ease-out infinite; } @keyframes tk { 0%,55% { stroke-dashoffset: 20; } 65%,100% { stroke-dashoffset: 0; } }
-.beam { animation: beam 3s ease-in-out infinite alternate; } @keyframes beam { from { transform: translateY(0); } to { transform: translateY(170px); } }
-.glow { transform-box: fill-box; transform-origin: center; animation: gl 2.4s ease-out infinite; } @keyframes gl { from { transform: scale(1); opacity: .8; } to { transform: scale(1.25, 1.6); opacity: 0; } }
+    .wr { stroke-dashoffset: 92; animation: wr 1.2s ease-out both; } @keyframes wr { to { stroke-dashoffset: 0; } }
+.tick { stroke-dasharray: 20; stroke-dashoffset: 20; animation: tk .6s 3.4s ease-out both; } @keyframes tk { to { stroke-dashoffset: 0; } }
 @media (prefers-reduced-motion: reduce) { .wr, .tick { stroke-dashoffset: 0 !important; } }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .ln, .note, .row { opacity: 1 !important; } }
   </style>
@@ -26,17 +24,17 @@
       <line x1="70" y1="78" x2="162" y2="78" stroke="#c9d3f2" stroke-opacity=".6" stroke-width="3" stroke-linecap="round" stroke-dasharray="92" class="wr" style="animation-delay:0.00s"/><line x1="70" y1="91" x2="162" y2="91" stroke="#c9d3f2" stroke-opacity=".6" stroke-width="3" stroke-linecap="round" stroke-dasharray="92" class="wr" style="animation-delay:0.35s"/><line x1="70" y1="104" x2="130" y2="104" stroke="#c9d3f2" stroke-opacity=".6" stroke-width="3" stroke-linecap="round" stroke-dasharray="60" class="wr" style="animation-delay:0.70s"/><line x1="70" y1="117" x2="162" y2="117" stroke="#c9d3f2" stroke-opacity=".6" stroke-width="3" stroke-linecap="round" stroke-dasharray="92" class="wr" style="animation-delay:1.05s"/><line x1="70" y1="130" x2="162" y2="130" stroke="#c9d3f2" stroke-opacity=".6" stroke-width="3" stroke-linecap="round" stroke-dasharray="92" class="wr" style="animation-delay:1.40s"/><line x1="70" y1="143" x2="130" y2="143" stroke="#c9d3f2" stroke-opacity=".6" stroke-width="3" stroke-linecap="round" stroke-dasharray="60" class="wr" style="animation-delay:1.75s"/><line x1="70" y1="156" x2="162" y2="156" stroke="#c9d3f2" stroke-opacity=".6" stroke-width="3" stroke-linecap="round" stroke-dasharray="92" class="wr" style="animation-delay:2.10s"/><line x1="70" y1="169" x2="162" y2="169" stroke="#c9d3f2" stroke-opacity=".6" stroke-width="3" stroke-linecap="round" stroke-dasharray="92" class="wr" style="animation-delay:2.45s"/><line x1="70" y1="182" x2="130" y2="182" stroke="#c9d3f2" stroke-opacity=".6" stroke-width="3" stroke-linecap="round" stroke-dasharray="60" class="wr" style="animation-delay:2.80s"/>
       <circle cx="152" cy="190" r="12" fill="none" stroke="#ff4fd8" stroke-width="2"/><path d="M146,190 l4,4 8,-9" fill="none" stroke="#ff4fd8" stroke-width="2" class="tick"/>
     </g>
-    <rect class="beam" x="40" y="40" width="160" height="6" fill="#22e6ff" opacity=".35"/>
+
     
     <text x="250" y="108" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#f2f5ff">Systematic Review of Quantum Machine Learning for Healthcare</text>
     <text x="250" y="142" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" fill="#c9d3f2">Matheus Teixeira, Reinaldo A. C. Bianchi</text>
     <text x="250" y="174" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" fill="#9fb4ff">36th Brazilian Conference on Intelligent Systems · Cuiabá, Brazil · October 2026</text>
     <g transform="translate(250 196)">
       <rect width="150" height="34" rx="17" fill="#ff4fd8" fill-opacity=".14" stroke="#ff4fd8"/>
-      <rect width="150" height="34" rx="17" fill="none" stroke="#ff4fd8" class="glow"/>
+
       <text x="75" y="23" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'DejaVu Sans Mono', 'Liberation Mono', Menlo, monospace" font-size="15" font-weight="700" fill="#ffd1f3">BRACIS 2026</text>
     </g>
-    <circle r="4" fill="#22e6ff"><animateMotion dur="4s" repeatCount="indefinite" path="M240,213 a88,26 0 1,0 176,0 a88,26 0 1,0 -176,0"/></circle>
+    <text x="1240" y="224" text-anchor="end" font-family="'SFMono-Regular', Consolas, 'DejaVu Sans Mono', 'Liberation Mono', Menlo, monospace" font-size="18" fill="#22e6ff">view certificate →</text>
     <rect x=".5" y=".5" width="1279" height="249" rx="16" fill="none" stroke="#ff4fd8" stroke-opacity=".45"/>
   </g>
 </svg>

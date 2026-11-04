@@ -4,9 +4,7 @@
   <style>
     .tw { animation: tw 4s ease-in-out infinite; } .tw1 { animation-delay: 1.3s; } .tw2 { animation-delay: 2.6s; }
     @keyframes tw { 0%,100% { opacity: .2; } 50% { opacity: .95; } }
-    .px { animation: glow 1.6s ease-in-out infinite alternate; } .b1 { animation-delay: .2s; } .b2 { animation-delay: .4s; } .b3 { animation-delay: .6s; } .b4 { animation-delay: .8s; }
-@keyframes glow { to { filter: brightness(1.6); } }
-.sweep { animation: sweep 6s linear infinite; } @keyframes sweep { from { transform: translateX(0); } to { transform: translateX(236px); } }
+    .sweep { animation: sweep 6s linear infinite; } @keyframes sweep { from { transform: translateX(0); } to { transform: translateX(236px); } }
 .note { opacity: 0; animation: pop 6s ease-out infinite; } .n1 { animation-delay: 1s; } .n2 { animation-delay: 2s; } .n3 { animation-delay: 3s; } .n4 { animation-delay: 4s; } .n5 { animation-delay: 5s; }
 @keyframes pop { 0% { opacity: 0; transform: translateY(-6px); } 6% { opacity: 1; transform: none; } 85% { opacity: 1; } 100% { opacity: 0; } }
 .arrow { animation: nudge 1.6s ease-in-out infinite; } @keyframes nudge { 50% { transform: translateX(6px); } }
