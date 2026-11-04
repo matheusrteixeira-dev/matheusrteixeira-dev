@@ -3,16 +3,16 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/matheusrteixeira/"><img src="https://img.shields.io/badge/LinkedIn-matheusrteixeira-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://orcid.org/0009-0001-1816-632X"><img src="https://img.shields.io/badge/ORCID-0009--0001--1816--632X-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"/></a>
-  <a href="mailto:rmatheusteixeira@pm.me"><img src="https://img.shields.io/badge/Email-rmatheusteixeira%40pm.me-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/matheusrteixeira/"><img src="assets/btn-linkedin.svg" alt="LinkedIn: in/matheusrteixeira" width="32%"/></a>
+  <a href="https://orcid.org/0009-0001-1816-632X"><img src="assets/btn-orcid.svg" alt="ORCID: 0009-0001-1816-632X" width="32%"/></a>
+  <a href="mailto:rmatheusteixeira@pm.me"><img src="assets/btn-email.svg" alt="Email: rmatheusteixeira@pm.me" width="32%"/></a>
 </p>
 
 <p align="center">
   <img src="assets/terminal.svg" alt="Terminal: whoami prints Matheus Rodrigues Teixeira, machine learning engineer, software engineer, quantum computing researcher. Status: Ph.D. in Electrical Engineering at FEI on quantum error correction, enrolled with classes from February 2027; MBA in Data Science, AI and Analytics at USP/Esalq in progress; M.Sc. in Electrical Engineering (AI) and B.Sc. in Computer Science at FEI. Shipped: isaac3d.com, amadeosheets.com, Allwinner, Brectus, quantum ML for healthcare. Languages: Portuguese (native), English (C2, EF SET 92/100)." width="100%"/>
 </p>
 
-I build reproducible machine learning pipelines and tested, production-quality software. My research is in quantum machine learning and quantum error correction; my engineering work spans Python, TypeScript, React and Rust compiled to WebAssembly. The physics on this page is computed, not drawn: the double pendulum, for example, is integrated with RK4.
+I work on machine learning and software. My research is in quantum machine learning and quantum error correction, and most of my code is in Python, TypeScript, React and Rust.
 
 <p align="center">
   <img src="assets/worldline.svg" alt="Worldline, a spacetime diagram of my path: web developer and IT support at Orion Benefícios from 2016 to 2023; B.Sc. in Computer Science at FEI 2019 to 2023; M.Sc. in Electrical Engineering (AI) at FEI 2024 to 2026; MBA at USP/Esalq from August 2026; BRACIS 2026 paper in October 2026; Ph.D. classes begin February 2027; planned sandwich year at ETH Zurich from September 2028; planned thesis defence in February 2030." width="100%"/>
@@ -24,30 +24,32 @@ I build reproducible machine learning pipelines and tested, production-quality s
   <tr>
     <td width="50%" valign="top">
       <a href="https://isaac3d.com"><img src="assets/isaac.svg" alt="Isaac: a chaotic double pendulum drawing its own trajectory" width="100%"/></a>
-      <p>Students change parameters and watch physics respond, with live graphs and equations. Physics core in Rust compiled to WebAssembly; interface in React, TypeScript and Three.js; physics validated with <code>cargo test</code>, unit tests in Vitest and end-to-end tests in Playwright.</p>
+      <p>Interactive physics simulations for students, with live graphs and equations. Physics core in Rust compiled to WebAssembly; interface in React, TypeScript and Three.js; physics validated with <code>cargo test</code>, unit tests in Vitest and end-to-end tests in Playwright.</p>
       <p><a href="https://isaac3d.com"><b>isaac3d.com</b></a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://amadeosheets.com"><img src="assets/amadeo.svg" alt="Amadeo: a spectrogram resolving into notes on a staff" width="100%"/></a>
-      <p>Transcribes recordings into editable scores without leaving the browser: neural pitch detection on TensorFlow.js, key and chord estimation, export to PDF, MusicXML and MIDI. React and TypeScript, nine languages, cross-browser Playwright tests.</p>
+      <p>Turns audio recordings into editable sheet music, all in the browser: neural pitch detection on TensorFlow.js, key and chord estimation, export to PDF, MusicXML and MIDI. React and TypeScript, nine languages, cross-browser Playwright tests.</p>
       <p><a href="https://amadeosheets.com"><b>amadeosheets.com</b></a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <img src="assets/allwinner.svg" alt="Allwinner: walk-forward windows, each fit followed by an out-of-sample test" width="100%"/>
-      <p>Scores trading strategies only on out-of-sample data: walk-forward backtests with fees and slippage, and block-bootstrap significance tests against data snooping. Python, pandas, FastAPI and SQLite, with 221 pytest tests.</p>
-      <p><sub>Private repository, happy to walk through it in an interview.</sub></p>
+      <p>Backtests trading strategies on out-of-sample data with walk-forward windows, fees and slippage, and uses block-bootstrap tests to check that results are not due to chance. Python, pandas, FastAPI and SQLite, with 221 pytest tests.</p>
+      <p><sub>Private repository.</sub></p>
     </td>
     <td width="50%" valign="top">
       <img src="assets/brectus.svg" alt="Brectus: a router dispatching requests to per-project coding agents" width="100%"/>
-      <p>Desktop app that routes requests to AI coding agents per project, with encryption at rest, signed updates and CI on Windows, macOS and Linux. Node.js and Electron.</p>
-      <p><sub>Private repository, happy to walk through it in an interview.</sub></p>
+      <p>Desktop app that sends requests to a separate AI coding agent for each project. Data is encrypted at rest, updates are signed, and CI runs on Windows, macOS and Linux. Node.js and Electron.</p>
+      <p><sub>Private repository.</sub></p>
     </td>
   </tr>
 </table>
 
-Also built: company websites for Orion Benefícios and LÍDER Plus Telemedicina in Astro and TypeScript on Cloudflare Pages, with WCAG 2.2 AA accessibility tests and Lighthouse scores of 95 and above.
+<p align="center">
+  <img src="assets/websites.svg" alt="Company websites for Orion Benefícios and LÍDER Plus Telemedicina: Lighthouse 95 on mobile and 100 on desktop, WCAG 2.2 AA accessibility tests, built with Astro, TypeScript and Cloudflare Pages." width="100%"/>
+</p>
 
 ## Research
 
@@ -55,7 +57,7 @@ Also built: company websites for Orion Benefícios and LÍDER Plus Telemedicina 
   <a href="https://github.com/matheusrteixeira-dev/Quantum-Machine-Learning-Applications-in-Healthcare"><img src="assets/research.svg" alt="Quantum-kernel SVM on breast cancer histopathology: 80.0% accuracy, 86.0% F1-score, 0.520 MCC, with an animated Bloch sphere" width="100%"/></a>
 </p>
 
-**[Quantum Machine Learning Applications in Healthcare](https://github.com/matheusrteixeira-dev/Quantum-Machine-Learning-Applications-in-Healthcare)**: my M.Sc. dissertation. It is a reproducible hybrid quantum-classical pipeline, and every model is evaluated on patient-wise splits so that no patient appears in both training and test data.
+**[Quantum Machine Learning Applications in Healthcare](https://github.com/matheusrteixeira-dev/Quantum-Machine-Learning-Applications-in-Healthcare)**: code for my M.Sc. dissertation. A hybrid quantum-classical pipeline for breast cancer histopathology, with the data split by patient so that no patient appears in both training and test sets.
 
 ```mermaid
 flowchart LR
@@ -74,13 +76,13 @@ flowchart LR
     class F,G q
 ```
 
-**[Quantum Classifier for the Iris Dataset](https://github.com/matheusrteixeira-dev/Quantum-Classifier-for-Iris-Dataset)**: my B.Sc. final project, a Quantum Support Vector Machine with quantum feature maps and kernel-based classification.
+**[Quantum Classifier for the Iris Dataset](https://github.com/matheusrteixeira-dev/Quantum-Classifier-for-Iris-Dataset)**: my B.Sc. final project, a quantum support vector machine for the Iris dataset.
 
 ### Publication
 
-> **Systematic Review of Quantum Machine Learning for Healthcare**<br/>
-> Matheus Teixeira, Reinaldo A. C. Bianchi<br/>
-> 36th Brazilian Conference on Intelligent Systems (BRACIS 2026), Cuiabá, Brazil, October 2026.
+<p align="center">
+  <img src="assets/publication.svg" alt="Publication: Systematic Review of Quantum Machine Learning for Healthcare. Matheus Teixeira, Reinaldo A. C. Bianchi. 36th Brazilian Conference on Intelligent Systems (BRACIS 2026), Cuiabá, Brazil, October 2026." width="100%"/>
+</p>
 
 ## Skills
 
@@ -89,7 +91,7 @@ flowchart LR
 </p>
 
 <details>
-<summary><b>Full toolbox</b></summary>
+<summary><b>All tools</b></summary>
 <br/>
 
 #### Machine Learning and Data
@@ -172,11 +174,14 @@ flowchart LR
 
 ## Coursework
 
-[M.Sc. Artificial Intelligence](https://github.com/matheusrteixeira-dev/MSc-Artificial-Intelligence) · [Computer Science](https://github.com/matheusrteixeira-dev/Computer-Science-FEI)
+<p align="center">
+  <a href="https://github.com/matheusrteixeira-dev/MSc-Artificial-Intelligence"><img src="assets/btn-msc.svg" alt="M.Sc. Artificial Intelligence coursework repository" width="49%"/></a>
+  <a href="https://github.com/matheusrteixeira-dev/Computer-Science-FEI"><img src="assets/btn-cs.svg" alt="Computer Science coursework repository" width="49%"/></a>
+</p>
 
-## Research interests
-
-`Quantum Error Correction` · `Machine Learning Decoders` · `Quantum Machine Learning` · `Healthcare AI` · `Computer Vision` · `Reproducible Research`
+<p align="center">
+  <img src="assets/interests.svg" alt="Research interests orbiting quantum error correction: machine learning decoders, quantum machine learning, healthcare AI, computer vision and reproducible research." width="100%"/>
+</p>
 
 <p align="center">
   <img src="assets/footer.svg" alt="" width="100%"/>

@@ -20,8 +20,7 @@
     <path id="geo" d="M-20,74.4 C320.0,74.4 512.0,24.0 640.0,24.0 C768.0,24.0 960.0,74.4 1300,74.4" fill="none"/>
     <circle r="5" fill="#22e6ff"><animateMotion dur="9s" repeatCount="indefinite" rotate="auto"><mpath href="#geo"/></animateMotion></circle>
     <circle r="3" fill="#ff4fd8"><animateMotion dur="9s" begin="-4.5s" repeatCount="indefinite"><mpath href="#geo"/></animateMotion></circle>
-    <text x="640.0" y="66.0" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'DejaVu Sans Mono', 'Liberation Mono', Menlo, monospace" font-size="15" letter-spacing="3" fill="#c9d3f2">THANKS FOR FALLING BY</text>
-    <text x="640.0" y="88.0" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'DejaVu Sans Mono', 'Liberation Mono', Menlo, monospace" font-size="13" letter-spacing="1.5" fill="#9fb4ff" fill-opacity=".8">every photon above followed a geodesic</text>
+    <text x="640.0" y="66.0" text-anchor="middle" font-family="'SFMono-Regular', Consolas, 'DejaVu Sans Mono', 'Liberation Mono', Menlo, monospace" font-size="15" letter-spacing="3" fill="#c9d3f2">THANKS FOR VISITING</text>
     <rect x=".5" y=".5" width="1279" height="119" rx="16" fill="none" stroke="#22e6ff" stroke-opacity=".45"/>
   </g>
 </svg>
