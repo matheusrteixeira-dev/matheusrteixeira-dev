@@ -47,9 +47,14 @@ I work on machine learning and software. My research is in quantum machine learn
   </tr>
 </table>
 
-<p align="center">
-  <img src="assets/websites.svg" alt="Company websites for Orion Benefícios and LÍDER Plus Telemedicina: Lighthouse 95 on mobile and 100 on desktop, WCAG 2.2 AA accessibility tests, built with Astro, TypeScript and Cloudflare Pages." width="100%"/>
-</p>
+Company websites:
+
+<table>
+  <tr>
+    <td width="50%" valign="top"><a href="https://www.orionbeneficios.com.br"><img src="assets/site-orion.svg" alt="Orion Benefícios website: Lighthouse 95 on mobile and 100 on desktop, WCAG 2.2 AA" width="100%"/></a></td>
+    <td width="50%" valign="top"><a href="https://liderplustelemedicina.com.br/"><img src="assets/site-lider.svg" alt="LÍDER Plus Telemedicina website: Lighthouse 95 on mobile and 100 on desktop, WCAG 2.2 AA" width="100%"/></a></td>
+  </tr>
+</table>
 
 ## Research
 
