@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Matheus Rodrigues Teixeira: Machine Learning Engineer, Software Engineer, Quantum Computing Researcher" width="100%"/>
+  <img src="assets/header.svg" alt="Matheus Rodrigues Teixeira: Machine Learning Engineer, Software Engineer, Quantum Computing Researcher. Banner with a ray-traced black hole." width="100%"/>
 </p>
 
 <p align="center">
@@ -9,67 +9,53 @@
 </p>
 
 <p align="center">
-I build reproducible machine learning pipelines and tested, production-quality software.<br/>
-My research is in quantum machine learning and quantum error correction; my engineering work spans<br/>
-Python, TypeScript, React and Rust compiled to WebAssembly.
+  <img src="assets/terminal.svg" alt="Terminal: whoami prints Matheus Rodrigues Teixeira, machine learning engineer, software engineer, quantum computing researcher. Status: Ph.D. in Electrical Engineering at FEI on quantum error correction, enrolled with classes from February 2027; MBA in Data Science, AI and Analytics at USP/Esalq in progress; M.Sc. in Electrical Engineering (AI) and B.Sc. in Computer Science at FEI. Shipped: isaac3d.com, amadeosheets.com, Allwinner, Brectus, quantum ML for healthcare. Languages: Portuguese (native), English (C2, EF SET 92/100)." width="100%"/>
 </p>
 
-## Right now
+I build reproducible machine learning pipelines and tested, production-quality software. My research is in quantum machine learning and quantum error correction; my engineering work spans Python, TypeScript, React and Rust compiled to WebAssembly. The physics on this page is computed, not drawn: the banner is a ray-traced Schwarzschild black hole, and the double pendulum is integrated with RK4.
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <b>Ph.D. in Electrical Engineering</b><br/>
-      <sub>Centro Universitário FEI · CAPES scholarship</sub><br/><br/>
-      Enrolled; classes begin in February 2027. Quantum error correction and machine learning decoders, with a sandwich year planned at ETH Zurich (2028–2029).
-    </td>
-    <td width="33%" valign="top">
-      <b>MBA in Data Science, AI and Analytics</b><br/>
-      <sub>USP/Esalq · in progress</sub><br/><br/>
-      Applied statistics, machine learning and analytics, alongside an M.Sc. in Electrical Engineering (AI) and a B.Sc. in Computer Science, both from FEI.
-    </td>
-    <td width="33%" valign="top">
-      <b>Building for the browser</b><br/>
-      <sub>Rust · WebAssembly · TypeScript · TensorFlow.js</sub><br/><br/>
-      Interactive physics and music tools that run entirely client-side, backed by seven years of professional web, database and IT work.
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="assets/worldline.svg" alt="Worldline, a spacetime diagram of my path: web developer and IT support at Orion Benefícios from 2016 to 2023; B.Sc. in Computer Science at FEI 2019 to 2023; M.Sc. in Electrical Engineering (AI) at FEI 2024 to 2026; MBA at USP/Esalq from August 2026; BRACIS 2026 paper in October 2026; Ph.D. classes begin February 2027; planned sandwich year at ETH Zurich from September 2028; planned thesis defence in February 2030." width="100%"/>
+</p>
 
 ## Featured software
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://isaac3d.com"><img src="assets/isaac.svg" alt="Isaac: interactive 3D physics simulations" width="100%"/></a>
+      <a href="https://isaac3d.com"><img src="assets/isaac.svg" alt="Isaac: a chaotic double pendulum drawing its own trajectory" width="100%"/></a>
       <p>Students change parameters and watch physics respond, with live graphs and equations. Physics core in Rust compiled to WebAssembly; interface in React, TypeScript and Three.js; physics validated with <code>cargo test</code>, unit tests in Vitest and end-to-end tests in Playwright.</p>
       <p><a href="https://isaac3d.com"><b>isaac3d.com</b></a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://amadeosheets.com"><img src="assets/amadeo.svg" alt="Amadeo: from sound to sheet music" width="100%"/></a>
+      <a href="https://amadeosheets.com"><img src="assets/amadeo.svg" alt="Amadeo: a spectrogram resolving into notes on a staff" width="100%"/></a>
       <p>Transcribes recordings into editable scores without leaving the browser: neural pitch detection on TensorFlow.js, key and chord estimation, export to PDF, MusicXML and MIDI. React and TypeScript, nine languages, cross-browser Playwright tests.</p>
       <p><a href="https://amadeosheets.com"><b>amadeosheets.com</b></a></p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/allwinner.svg" alt="Allwinner: walk-forward windows, each fit followed by an out-of-sample test" width="100%"/>
+      <p>Scores trading strategies only on out-of-sample data: walk-forward backtests with fees and slippage, and block-bootstrap significance tests against data snooping. Python, pandas, FastAPI and SQLite, with 221 pytest tests.</p>
+      <p><sub>Private repository, happy to walk through it in an interview.</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/brectus.svg" alt="Brectus: a router dispatching requests to per-project coding agents" width="100%"/>
+      <p>Desktop app that routes requests to AI coding agents per project, with encryption at rest, signed updates and CI on Windows, macOS and Linux. Node.js and Electron.</p>
+      <p><sub>Private repository, happy to walk through it in an interview.</sub></p>
+    </td>
+  </tr>
 </table>
 
-<details>
-<summary><b>Also built</b> (private repositories, happy to walk through them in an interview)</summary>
-<br/>
-
-| Project | What it does | Stack |
-| --- | --- | --- |
-| **Allwinner** | Scores trading strategies with walk-forward, out-of-sample backtests and block-bootstrap significance tests | Python, pandas, FastAPI, SQLite, 221 pytest tests |
-| **Brectus** | Desktop app that orchestrates AI coding agents per project, with encryption at rest and signed updates | Node.js, Electron |
-| **Business websites** | Company sites with WCAG 2.2 AA accessibility tests and Lighthouse scores of 95 and above | Astro, TypeScript, Cloudflare Pages |
-
-</details>
+Also built: company websites for Orion Benefícios and LÍDER Plus Telemedicina in Astro and TypeScript on Cloudflare Pages, with WCAG 2.2 AA accessibility tests and Lighthouse scores of 95 and above.
 
 ## Research
 
-### [Quantum Machine Learning Applications in Healthcare](https://github.com/matheusrteixeira-dev/Quantum-Machine-Learning-Applications-in-Healthcare)
+<p align="center">
+  <a href="https://github.com/matheusrteixeira-dev/Quantum-Machine-Learning-Applications-in-Healthcare"><img src="assets/research.svg" alt="Quantum-kernel SVM on breast cancer histopathology: 80.0% accuracy, 86.0% F1-score, 0.520 MCC, with an animated Bloch sphere" width="100%"/></a>
+</p>
 
-Reproducible hybrid quantum-classical pipeline for breast cancer histopathology classification on BreaKHis (M.Sc. dissertation).
+**[Quantum Machine Learning Applications in Healthcare](https://github.com/matheusrteixeira-dev/Quantum-Machine-Learning-Applications-in-Healthcare)**: my M.Sc. dissertation. It is a reproducible hybrid quantum-classical pipeline, and every model is evaluated on patient-wise splits so that no patient appears in both training and test data.
 
 ```mermaid
 flowchart LR
@@ -88,24 +74,23 @@ flowchart LR
     class F,G q
 ```
 
-<p>
-  <img src="https://img.shields.io/badge/QSVM%20accuracy-80.0%25-6929C4?style=flat-square" alt="QSVM accuracy 80.0%"/>
-  <img src="https://img.shields.io/badge/F1--score-86.0%25-6929C4?style=flat-square" alt="F1-score 86.0%"/>
-  <img src="https://img.shields.io/badge/MCC-0.520-6929C4?style=flat-square" alt="MCC 0.520"/>
-  <img src="https://img.shields.io/badge/hardware-IBM%20Quantum-052FAD?style=flat-square&logo=ibm&logoColor=white" alt="IBM Quantum hardware"/>
-</p>
+**[Quantum Classifier for the Iris Dataset](https://github.com/matheusrteixeira-dev/Quantum-Classifier-for-Iris-Dataset)**: my B.Sc. final project, a Quantum Support Vector Machine with quantum feature maps and kernel-based classification.
 
-### [Quantum Classifier for the Iris Dataset](https://github.com/matheusrteixeira-dev/Quantum-Classifier-for-Iris-Dataset)
-
-B.Sc. final project: a Quantum Support Vector Machine for the Iris dataset, with quantum feature maps, kernel-based classification and model evaluation.
-
-## Publication
+### Publication
 
 > **Systematic Review of Quantum Machine Learning for Healthcare**<br/>
 > Matheus Teixeira, Reinaldo A. C. Bianchi<br/>
 > 36th Brazilian Conference on Intelligent Systems (BRACIS 2026), Cuiabá, Brazil, October 2026.
 
-## Tech stack
+## Skills
+
+<p align="center">
+  <img src="assets/constellations.svg" alt="Skills constellation map. Machine learning: Python, PyTorch, TensorFlow, TensorFlow.js, scikit-learn, pandas, NumPy, OpenCV. Quantum: Qiskit, IBM Quantum, QSVM, quantum kernels, quantum error correction. Web and apps: TypeScript, React, Three.js, Astro, Node.js, Electron, FastAPI, Cloudflare. Systems and quality: SQL, C and C++, Rust, WebAssembly, Playwright, Vitest, pytest, GitHub Actions, Linux, LaTeX." width="100%"/>
+</p>
+
+<details>
+<summary><b>Full toolbox</b></summary>
+<br/>
 
 #### Machine Learning and Data
 
@@ -183,6 +168,8 @@ B.Sc. final project: a Quantum Support Vector Machine for the Iris dataset, with
   <a href="https://www.mathworks.com/products/matlab.html" title="MATLAB"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matlab/matlab-original.svg" alt="MATLAB" width="40" height="40"/></a>
 </p>
 
+</details>
+
 ## Coursework
 
 [M.Sc. Artificial Intelligence](https://github.com/matheusrteixeira-dev/MSc-Artificial-Intelligence) · [Computer Science](https://github.com/matheusrteixeira-dev/Computer-Science-FEI)
@@ -194,3 +181,11 @@ B.Sc. final project: a Quantum Support Vector Machine for the Iris dataset, with
 <p align="center">
   <img src="assets/footer.svg" alt="" width="100%"/>
 </p>
+
+<details>
+<summary><sub>How the banner was made</sub></summary>
+<br/>
+
+Each pixel of the banner is a light ray traced backwards from the camera through Schwarzschild spacetime (units G = c = M = 1). Rays follow the null-geodesic equation in Cartesian form, <code>x″ = −(3/2) h² x / r⁵</code>, where <code>h = |x × v|</code> is conserved, integrated with RK4. A ray stops when it crosses the horizon, escapes to the sky, or has crossed the accretion disc three times. The disc runs from the innermost stable circular orbit (r = 6M) to r = 34M and has a Novikov–Thorne-like flux profile. Its colour comes from the blackbody temperature shifted by <code>g = 1 / (uᵗ (1 − Ω L_z))</code>, and its brightness from <code>g³</code> beaming. The animation has 72 frames: each radial band of the disc turns a whole number of times per loop, so the motion loops seamlessly.
+
+</details>
