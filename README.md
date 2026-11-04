@@ -81,7 +81,11 @@ flowchart LR
     class F,G q
 ```
 
-**[Quantum Classifier for the Iris Dataset](https://github.com/matheusrteixeira-dev/Quantum-Classifier-for-Iris-Dataset)**: my B.Sc. final project, a quantum support vector machine for the Iris dataset.
+<p align="center">
+  <a href="https://github.com/matheusrteixeira-dev/Quantum-Classifier-for-Iris-Dataset"><img src="assets/iris.svg?v=5" alt="Variational quantum classifier on the Iris dataset: the 150 flowers plotted by petal length and width, next to a 4-qubit circuit with ZFeatureMap encoding and a RealAmplitudes ansatz" width="100%"/></a>
+</p>
+
+**[Quantum Classifier for the Iris Dataset](https://github.com/matheusrteixeira-dev/Quantum-Classifier-for-Iris-Dataset)**: my B.Sc. final project, a variational quantum classifier (VQC) for the Iris dataset, compared with a classical SVM.
 
 ### Publication
 
