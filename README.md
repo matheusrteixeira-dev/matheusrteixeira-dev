@@ -1,21 +1,21 @@
 <p align="center">
-  <img src="assets/header.svg?v=5" alt="Matheus Rodrigues Teixeira: Machine Learning Engineer, Software Engineer, Quantum Computing Researcher. Animated banner with a black hole and orbiting planets." width="100%"/>
+  <img src="assets/header.svg?v=6" alt="Matheus Teixeira: Machine Learning Engineer, Software Engineer, Quantum Computing Researcher. Animated banner with a black hole and orbiting planets." width="100%"/>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/matheusrteixeira/"><img src="assets/btn-linkedin.svg?v=5" alt="LinkedIn: in/matheusrteixeira" width="32%"/></a>
-  <a href="https://orcid.org/0009-0001-1816-632X"><img src="assets/btn-orcid.svg?v=5" alt="ORCID: 0009-0001-1816-632X" width="32%"/></a>
-  <a href="mailto:rmatheusteixeira@pm.me"><img src="assets/btn-email.svg?v=5" alt="Email: rmatheusteixeira@pm.me" width="32%"/></a>
+  <a href="https://www.linkedin.com/in/matheusrteixeira/"><img src="assets/btn-linkedin.svg?v=6" alt="LinkedIn: in/matheusrteixeira" width="32%"/></a>
+  <a href="https://orcid.org/0009-0001-1816-632X"><img src="assets/btn-orcid.svg?v=6" alt="ORCID: 0009-0001-1816-632X" width="32%"/></a>
+  <a href="mailto:rmatheusteixeira@pm.me"><img src="assets/btn-email.svg?v=6" alt="Email: rmatheusteixeira@pm.me" width="32%"/></a>
 </p>
 
 <p align="center">
-  <img src="assets/terminal.svg?v=5" alt="Terminal: whoami prints Matheus Rodrigues Teixeira, machine learning engineer, software engineer, quantum computing researcher. Status: Ph.D. in Electrical Engineering at FEI on quantum error correction, enrolled with classes from February 2027; MBA in Data Science, AI and Analytics at USP/Esalq in progress; M.Sc. in Electrical Engineering (AI) and B.Sc. in Computer Science at FEI. Shipped: isaac3d.com, amadeosheets.com, Allwinner, Brectus, quantum ML for healthcare. Languages: Portuguese (native), English (C2, EF SET 92/100)." width="100%"/>
+  <img src="assets/terminal.svg?v=6" alt="Terminal: whoami prints Matheus Teixeira, machine learning engineer, software engineer, quantum computing researcher. Status: Ph.D. in Electrical Engineering at FEI on quantum error correction, enrolled with classes from February 2027; MBA in Data Science, AI and Analytics at USP/Esalq in progress; M.Sc. in Electrical Engineering (AI) and B.Sc. in Computer Science at FEI. Shipped: isaac3d.com, amadeosheets.com, Allwinner, Brectus, quantum ML for healthcare. Languages: Portuguese (native), English (C2, EF SET 92/100)." width="100%"/>
 </p>
 
 I work on machine learning and software. My research is in quantum machine learning and quantum error correction, and most of my code is in Python, TypeScript, React and Rust.
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/matheusrteixeira/"><img src="assets/worldline.svg?v=5" alt="Worldline, a spacetime diagram of my path: web developer and IT support at Orion Benefícios from 2016 to 2023; B.Sc. in Computer Science at FEI 2019 to 2023; M.Sc. in Electrical Engineering (AI) at FEI 2024 to 2026; MBA at USP/Esalq from August 2026; BRACIS 2026 paper in October 2026; Ph.D. classes begin February 2027; planned sandwich year at ETH Zurich from September 2028; planned thesis defence in February 2030." width="100%"/></a>
+  <a href="https://www.linkedin.com/in/matheusrteixeira/"><img src="assets/worldline.svg?v=6" alt="Worldline, a spacetime diagram of my path: web developer and IT support at Orion Benefícios from 2016 to 2023; B.Sc. in Computer Science at FEI 2019 to 2023; M.Sc. in Electrical Engineering (AI) at FEI 2024 to 2026; MBA at USP/Esalq from August 2026; BRACIS 2026 paper in October 2026; Ph.D. classes begin February 2027; planned sandwich year at ETH Zurich from September 2028; planned thesis defence in February 2030." width="100%"/></a>
 </p>
 
 ## Featured software
@@ -23,24 +23,24 @@ I work on machine learning and software. My research is in quantum machine learn
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://isaac3d.com"><img src="assets/isaac.svg?v=5" alt="Isaac: a chaotic double pendulum drawing its own trajectory" width="100%"/></a>
+      <a href="https://isaac3d.com"><img src="assets/isaac.svg?v=6" alt="Isaac: a chaotic double pendulum drawing its own trajectory" width="100%"/></a>
       <p>Interactive physics simulations for students, with live graphs and equations. Physics core in Rust compiled to WebAssembly; interface in React, TypeScript and Three.js; physics validated with <code>cargo test</code>, unit tests in Vitest and end-to-end tests in Playwright.</p>
       <p><a href="https://isaac3d.com"><b>isaac3d.com</b></a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://amadeosheets.com"><img src="assets/amadeo.svg?v=5" alt="Amadeo: a spectrogram resolving into notes on a staff" width="100%"/></a>
+      <a href="https://amadeosheets.com"><img src="assets/amadeo.svg?v=6" alt="Amadeo: a spectrogram resolving into notes on a staff" width="100%"/></a>
       <p>Turns audio recordings into editable sheet music, all in the browser: neural pitch detection on TensorFlow.js, key and chord estimation, export to PDF, MusicXML and MIDI. React and TypeScript, nine languages, cross-browser Playwright tests.</p>
       <p><a href="https://amadeosheets.com"><b>amadeosheets.com</b></a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/allwinner.svg?v=5" alt="Allwinner: walk-forward windows, each fit followed by an out-of-sample test" width="100%"/>
+      <img src="assets/allwinner.svg?v=6" alt="Allwinner: walk-forward windows, each fit followed by an out-of-sample test" width="100%"/>
       <p>Backtests trading strategies on out-of-sample data with walk-forward windows, fees and slippage, and uses block-bootstrap tests to check that results are not due to chance. Python, pandas, FastAPI and SQLite, with 221 pytest tests.</p>
       <p><sub>Private repository.</sub></p>
     </td>
     <td width="50%" valign="top">
-      <img src="assets/brectus.svg?v=5" alt="Brectus: a router dispatching requests to per-project coding agents" width="100%"/>
+      <img src="assets/brectus.svg?v=6" alt="Brectus: a router dispatching requests to per-project coding agents" width="100%"/>
       <p>Desktop app that sends requests to a separate AI coding agent for each project. Data is encrypted at rest, updates are signed, and CI runs on Windows, macOS and Linux. Node.js and Electron.</p>
       <p><sub>Private repository.</sub></p>
     </td>
@@ -51,23 +51,23 @@ Company websites:
 
 <table>
   <tr>
-    <td width="50%" valign="top"><a href="https://www.orionbeneficios.com.br"><img src="assets/site-orion.svg?v=5" alt="Orion Benefícios website: Lighthouse 95 on mobile and 100 on desktop, WCAG 2.2 AA" width="100%"/></a></td>
-    <td width="50%" valign="top"><a href="https://liderplustelemedicina.com.br/"><img src="assets/site-lider.svg?v=5" alt="LÍDER Plus Telemedicina website: Lighthouse 95 on mobile and 100 on desktop, WCAG 2.2 AA" width="100%"/></a></td>
+    <td width="50%" valign="top"><a href="https://www.orionbeneficios.com.br"><img src="assets/site-orion.svg?v=6" alt="Orion Benefícios website: Lighthouse 95 on mobile and 100 on desktop, WCAG 2.2 AA" width="100%"/></a></td>
+    <td width="50%" valign="top"><a href="https://liderplustelemedicina.com.br/"><img src="assets/site-lider.svg?v=6" alt="LÍDER Plus Telemedicina website: Lighthouse 95 on mobile and 100 on desktop, WCAG 2.2 AA" width="100%"/></a></td>
   </tr>
 </table>
 
 ## Research
 
 <p align="center">
-  <a href="https://github.com/matheusrteixeira-dev/Quantum-Machine-Learning-Applications-in-Healthcare"><img src="assets/research.svg?v=5" alt="Quantum-kernel SVM on breast cancer histopathology: 80.0% accuracy, 86.0% F1-score, 0.520 MCC, with an animated Bloch sphere" width="100%"/></a>
+  <a href="https://github.com/matheusrteixeira-dev/Quantum-Machine-Learning-Applications-in-Healthcare"><img src="assets/research.svg?v=6" alt="Quantum-kernel SVM on breast cancer histopathology: 80.0% accuracy, 86.0% F1-score, 0.520 MCC, with an animated Bloch sphere" width="100%"/></a>
 </p>
 
 **[Quantum Machine Learning Applications in Healthcare](https://github.com/matheusrteixeira-dev/Quantum-Machine-Learning-Applications-in-Healthcare)**: code for my M.Sc. dissertation. A hybrid quantum-classical pipeline for breast cancer histopathology, with the data split by patient so that no patient appears in both training and test sets.
 
-<p align="center"><img src="assets/pipeline.svg?v=5" alt="Pipeline: BreaKHis histopathology images, ResNet-50 features, patient-wise splits, then a linear SVM, an RBF SVM and a QSVM with a quantum fidelity kernel (also run on IBM Quantum hardware), evaluated with accuracy, F1-score and MCC" width="100%"/></p>
+<p align="center"><img src="assets/pipeline.svg?v=6" alt="Pipeline: BreaKHis histopathology images, ResNet-50 features, patient-wise splits, then a linear SVM, an RBF SVM and a QSVM with a quantum fidelity kernel (also run on IBM Quantum hardware), evaluated with accuracy, F1-score and MCC" width="100%"/></p>
 
 <p align="center">
-  <a href="https://github.com/matheusrteixeira-dev/Quantum-Classifier-for-Iris-Dataset"><img src="assets/iris.svg?v=5" alt="Variational quantum classifier on the Iris dataset: the 150 flowers plotted by petal length and width, next to a 4-qubit circuit with ZFeatureMap encoding and a RealAmplitudes ansatz" width="100%"/></a>
+  <a href="https://github.com/matheusrteixeira-dev/Quantum-Classifier-for-Iris-Dataset"><img src="assets/iris.svg?v=6" alt="Variational quantum classifier on the Iris dataset: the 150 flowers plotted by petal length and width, next to a 4-qubit circuit with ZFeatureMap encoding and a RealAmplitudes ansatz" width="100%"/></a>
 </p>
 
 **[Quantum Classifier for the Iris Dataset](https://github.com/matheusrteixeira-dev/Quantum-Classifier-for-Iris-Dataset)**: my B.Sc. final project, a variational quantum classifier (VQC) for the Iris dataset, compared with a classical SVM.
@@ -75,13 +75,13 @@ Company websites:
 ### Publication
 
 <p align="center">
-  <a href="assets/bracis-2026-certificate.pdf"><img src="assets/publication.svg?v=5" alt="Publication: Systematic Review of Quantum Machine Learning for Healthcare. Matheus Teixeira, Reinaldo A. C. Bianchi. 36th Brazilian Conference on Intelligent Systems (BRACIS 2026), Cuiabá, Brazil, October 2026." width="100%"/></a>
+  <a href="assets/bracis-2026-certificate.pdf"><img src="assets/publication.svg?v=6" alt="Publication: Systematic Review of Quantum Machine Learning for Healthcare. Matheus Teixeira, Reinaldo A. C. Bianchi. 36th Brazilian Conference on Intelligent Systems (BRACIS 2026), Cuiabá, Brazil, October 2026." width="100%"/></a>
 </p>
 
 ## Skills
 
 <p align="center">
-  <img src="assets/constellations.svg?v=5" alt="Skills constellation map. Machine learning: Python, PyTorch, TensorFlow, TensorFlow.js, scikit-learn, pandas, NumPy, OpenCV. Quantum: Qiskit, IBM Quantum, QSVM, quantum kernels, quantum error correction. Web and apps: TypeScript, React, Three.js, Astro, Node.js, Electron, FastAPI, Cloudflare. Systems and quality: SQL, C and C++, Rust, WebAssembly, Playwright, Vitest, pytest, GitHub Actions, Linux, LaTeX." width="100%"/>
+  <img src="assets/constellations.svg?v=6" alt="Skills constellation map. Machine learning: Python, PyTorch, TensorFlow, TensorFlow.js, scikit-learn, pandas, NumPy, OpenCV. Quantum: Qiskit, IBM Quantum, QSVM, quantum kernels, quantum error correction. Web and apps: TypeScript, React, Three.js, Astro, Node.js, Electron, FastAPI, Cloudflare. Systems and quality: SQL, C and C++, Rust, WebAssembly, Playwright, Vitest, pytest, GitHub Actions, Linux, LaTeX." width="100%"/>
 </p>
 
 <details>
@@ -169,21 +169,21 @@ Company websites:
 ## Coursework
 
 <p align="center">
-  <a href="https://github.com/matheusrteixeira-dev/MSc-Artificial-Intelligence"><img src="assets/btn-msc.svg?v=5" alt="M.Sc. Artificial Intelligence coursework repository" width="49%"/></a>
-  <a href="https://github.com/matheusrteixeira-dev/Computer-Science-FEI"><img src="assets/btn-cs.svg?v=5" alt="Computer Science coursework repository" width="49%"/></a>
+  <a href="https://github.com/matheusrteixeira-dev/MSc-Artificial-Intelligence"><img src="assets/btn-msc.svg?v=6" alt="M.Sc. Artificial Intelligence coursework repository" width="49%"/></a>
+  <a href="https://github.com/matheusrteixeira-dev/Computer-Science-FEI"><img src="assets/btn-cs.svg?v=6" alt="Computer Science coursework repository" width="49%"/></a>
 </p>
 
 ## Research interests
 
 <p align="center">
-  <a href="https://en.wikipedia.org/wiki/Quantum_error_correction"><img src="assets/int-qec.svg?v=5" alt="Quantum Error Correction" height="44"/></a>
-  <a href="https://scholar.google.com/scholar?q=machine+learning+decoders+quantum+error+correction"><img src="assets/int-decoders.svg?v=5" alt="Machine Learning Decoders" height="44"/></a>
-  <a href="https://github.com/matheusrteixeira-dev/Quantum-Machine-Learning-Applications-in-Healthcare"><img src="assets/int-qml.svg?v=5" alt="Quantum Machine Learning" height="44"/></a>
-  <a href="https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare"><img src="assets/int-health.svg?v=5" alt="Healthcare AI" height="44"/></a>
-  <a href="https://en.wikipedia.org/wiki/Computer_vision"><img src="assets/int-vision.svg?v=5" alt="Computer Vision" height="44"/></a>
-  <a href="https://en.wikipedia.org/wiki/Reproducibility"><img src="assets/int-repro.svg?v=5" alt="Reproducible Research" height="44"/></a>
+  <a href="https://en.wikipedia.org/wiki/Quantum_error_correction"><img src="assets/int-qec.svg?v=6" alt="Quantum Error Correction" height="44"/></a>
+  <a href="https://scholar.google.com/scholar?q=machine+learning+decoders+quantum+error+correction"><img src="assets/int-decoders.svg?v=6" alt="Machine Learning Decoders" height="44"/></a>
+  <a href="https://github.com/matheusrteixeira-dev/Quantum-Machine-Learning-Applications-in-Healthcare"><img src="assets/int-qml.svg?v=6" alt="Quantum Machine Learning" height="44"/></a>
+  <a href="https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare"><img src="assets/int-health.svg?v=6" alt="Healthcare AI" height="44"/></a>
+  <a href="https://en.wikipedia.org/wiki/Computer_vision"><img src="assets/int-vision.svg?v=6" alt="Computer Vision" height="44"/></a>
+  <a href="https://en.wikipedia.org/wiki/Reproducibility"><img src="assets/int-repro.svg?v=6" alt="Reproducible Research" height="44"/></a>
 </p>
 
 <p align="center">
-  <img src="assets/footer.svg?v=5" alt="" width="100%"/>
+  <img src="assets/footer.svg?v=6" alt="" width="100%"/>
 </p>

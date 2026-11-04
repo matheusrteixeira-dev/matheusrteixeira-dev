@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="t d">
-  <title id="t">Matheus Rodrigues Teixeira</title>
+  <title id="t">Matheus Teixeira</title>
   <desc id="d">Machine learning engineer, software engineer and quantum computing researcher. Animated banner of a black hole with an accretion disc and orbiting planets.</desc>
   <style>
     .tw { animation: tw 4s ease-in-out infinite; }
@@ -242,7 +242,7 @@
     <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#22e6ff" class="rise">
       <text x="64" y="86" letter-spacing="3">// HELLO, WORLD<tspan class="caret">_</tspan></text>
     </g>
-    <text class="rise rise2" x="62" y="150" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#f2f5ff">Matheus Rodrigues Teixeira</text>
+    <text class="rise rise2" x="62" y="150" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#f2f5ff">Matheus Teixeira</text>
     <rect class="rise rise2" x="64" y="168" width="420" height="3" rx="1.5" fill="url(#hud)"/>
     <text class="rise rise3" x="64" y="208" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" fill="#c9d3f2">Machine Learning Engineer  ·  Software Engineer</text>
     <text class="rise rise3" x="64" y="240" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" fill="#c9d3f2">Quantum Computing Researcher</text>
