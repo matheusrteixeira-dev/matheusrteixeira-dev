@@ -75,8 +75,10 @@ Company websites:
 ### Publication
 
 <p align="center">
-  <a href="assets/bracis-2026-certificate.pdf"><img src="assets/publication.svg?v=6" alt="Publication: Systematic Review of Quantum Machine Learning for Healthcare. Matheus Teixeira, Reinaldo A. C. Bianchi. 36th Brazilian Conference on Intelligent Systems (BRACIS 2026), Cuiabá, Brazil, October 2026." width="100%"/></a>
+  <a href="https://sol.sbc.org.br/index.php/eniac/article/view/46839"><img src="assets/publication.svg?v=6" alt="Publication: Systematic Review of Quantum Machine Learning for Healthcare. Matheus Teixeira, Reinaldo A. C. Bianchi. 36th Brazilian Conference on Intelligent Systems (BRACIS 2026), Cuiabá, Brazil, October 2026." width="100%"/></a>
 </p>
+
+<p align="center"><a href="https://sol.sbc.org.br/index.php/eniac/article/view/46839">Read the paper</a> · <a href="assets/bracis-2026-certificate.pdf">Certificate (PDF)</a></p>
 
 ## Skills
 
