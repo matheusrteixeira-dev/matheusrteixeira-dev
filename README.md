@@ -64,22 +64,7 @@ Company websites:
 
 **[Quantum Machine Learning Applications in Healthcare](https://github.com/matheusrteixeira-dev/Quantum-Machine-Learning-Applications-in-Healthcare)**: code for my M.Sc. dissertation. A hybrid quantum-classical pipeline for breast cancer histopathology, with the data split by patient so that no patient appears in both training and test sets.
 
-```mermaid
-flowchart LR
-    A[BreaKHis<br/>histopathology images] --> B[ResNet-50<br/>feature extraction]
-    B --> C[Patient-wise<br/>train / val / test splits]
-    C --> D[Linear SVM]
-    C --> E[RBF SVM]
-    C --> F[QSVM<br/>quantum fidelity kernel]
-    F --> G[IBM Quantum<br/>hardware run]
-    D --> H[Accuracy · F1 · MCC]
-    E --> H
-    F --> H
-    classDef q fill:#2a1650,stroke:#ff4fd8,color:#f2f5ff
-    classDef c fill:#0b2233,stroke:#22e6ff,color:#f2f5ff
-    class A,B,C,D,E,H c
-    class F,G q
-```
+<p align="center"><img src="assets/pipeline.svg?v=5" alt="Pipeline: BreaKHis histopathology images, ResNet-50 features, patient-wise splits, then a linear SVM, an RBF SVM and a QSVM with a quantum fidelity kernel (also run on IBM Quantum hardware), evaluated with accuracy, F1-score and MCC" width="100%"/></p>
 
 <p align="center">
   <a href="https://github.com/matheusrteixeira-dev/Quantum-Classifier-for-Iris-Dataset"><img src="assets/iris.svg?v=5" alt="Variational quantum classifier on the Iris dataset: the 150 flowers plotted by petal length and width, next to a 4-qubit circuit with ZFeatureMap encoding and a RealAmplitudes ansatz" width="100%"/></a>
