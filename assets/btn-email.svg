@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="64" viewBox="0 0 300 64" role="img" aria-labelledby="t d">
   <title id="t">Email</title>
-  <desc id="d">Email: rmatheusteixeira@pm.me</desc>
+  <desc id="d">Email: matheus@sectus.dev</desc>
   <style>
     .tw { animation: tw 4s ease-in-out infinite; } .tw1 { animation-delay: 1.3s; } .tw2 { animation-delay: 2.6s; }
     @keyframes tw { 0%,100% { opacity: .2; } 50% { opacity: .95; } }
@@ -19,7 +19,7 @@
     <rect x="1" y="1" width="298" height="62" rx="31" fill="none" stroke="#a98bff" stroke-width="1.5" stroke-opacity=".7"/>
     <circle cx="40" cy="32" r="7" fill="#a98bff"/><circle cx="40" cy="32" r="7" fill="none" stroke="#a98bff" class="ping"/><ellipse cx="40" cy="32" rx="20" ry="8" fill="none" stroke="#a98bff" stroke-opacity=".45" transform="rotate(-20 40 32)"/><circle r="3" fill="#fff"><animateMotion dur="3s" repeatCount="indefinite" path="M20,32 a20,8 0 1,0 40,0 a20,8 0 1,0 -40,0"/></circle><style>.ping { transform-box: fill-box; transform-origin: center; animation: ping 2s ease-out infinite; } @keyframes ping { from { transform: scale(1); opacity: .9; } to { transform: scale(3); opacity: 0; } }</style>
     <text x="78" y="29" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#f2f5ff">Email</text>
-    <text x="78" y="49" font-family="'SFMono-Regular', Consolas, 'DejaVu Sans Mono', 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#c9d3f2">rmatheusteixeira@pm.me</text>
+    <text x="78" y="49" font-family="'SFMono-Regular', Consolas, 'DejaVu Sans Mono', 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#c9d3f2">matheus@sectus.dev</text>
     <path d="M266,26.0 l7,6 -7,6" fill="none" stroke="#a98bff" stroke-width="2"/>
     <rect x=".5" y=".5" width="299" height="63" rx="32" fill="none" stroke="#a98bff" stroke-opacity=".45"/>
   </g>

@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/matheusrteixeira/"><img src="assets/btn-linkedin.svg?v=6" alt="LinkedIn: in/matheusrteixeira" width="32%"/></a>
   <a href="https://orcid.org/0009-0001-1816-632X"><img src="assets/btn-orcid.svg?v=6" alt="ORCID: 0009-0001-1816-632X" width="32%"/></a>
-  <a href="mailto:rmatheusteixeira@pm.me"><img src="assets/btn-email.svg?v=6" alt="Email: rmatheusteixeira@pm.me" width="32%"/></a>
+  <a href="mailto:matheus@sectus.dev"><img src="assets/btn-email.svg?v=7" alt="Email: matheus@sectus.dev" width="32%"/></a>
 </p>
 
 <p align="center">
